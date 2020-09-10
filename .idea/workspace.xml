@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="19c2c200-46d8-4073-ae9e-78a0a52abb4a" name="默认的" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="04876ee5-54f0-4d54-b024-b81d67de2497" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1gqzGJI8kB4AJyP9zyaNiwFxYJ1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/console/account/model/persistence/gorm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/console/account/model/persistence/gorm" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/protos" />
+      <recent name="$PROJECT_DIR$/console/account/bin" />
+      <recent name="$PROJECT_DIR$/console/account" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/console/account/internal/repository/persistence/gorm" />
+      <recent name="$PROJECT_DIR$/console/account/internal" />
+      <recent name="$PROJECT_DIR$/console/account" />
+      <recent name="$PROJECT_DIR$/console/account/bin/conf" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+    </myKeys>
+  </component>
+  <component name="RunManager">
+    <configuration name="account" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="dashenwo" />
+      <working_directory value="$PROJECT_DIR$/console/account/bin" />
+      <envs>
+        <env name="MICRO_REGISTRY" value="etcd" />
+        <env name="MICRO_REGISTRY_ADDRESS" value="49.235.160.203:2379" />
+      </envs>
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/console/account/main.go" />
+      <package value="github.com/dashenwo/dashenwo/console/account" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="$PROJECT_DIR$/console/account/bin" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.account" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn" />
+      </map>
+    </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="600" y="302" key="#Go_Modules" timestamp="1598856978028">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state x="600" y="302" key="#Go_Modules/0.23.1600.877@0.23.1600.877" timestamp="1598856978028" />
+    <state x="264" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599703405771">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state x="264" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1600.877@0.23.1600.877" timestamp="1599703405771" />
+    <state x="714" y="190" key="EnvironmentVariablesDialog" timestamp="1599703045826">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state x="714" y="190" key="EnvironmentVariablesDialog/0.23.1600.877@0.23.1600.877" timestamp="1599703045826" />
+    <state width="1558" height="242" key="GridCell.Tab.0.bottom" timestamp="1599708877251">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state width="1558" height="242" key="GridCell.Tab.0.bottom/0.23.1600.877@0.23.1600.877" timestamp="1599708877251" />
+    <state width="1558" height="242" key="GridCell.Tab.0.center" timestamp="1599708877250">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state width="1558" height="242" key="GridCell.Tab.0.center/0.23.1600.877@0.23.1600.877" timestamp="1599708877250" />
+    <state width="1558" height="242" key="GridCell.Tab.0.left" timestamp="1599708877250">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state width="1558" height="242" key="GridCell.Tab.0.left/0.23.1600.877@0.23.1600.877" timestamp="1599708877250" />
+    <state width="1558" height="242" key="GridCell.Tab.0.right" timestamp="1599708877250">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state width="1558" height="242" key="GridCell.Tab.0.right/0.23.1600.877@0.23.1600.877" timestamp="1599708877250" />
+    <state width="1558" height="242" key="GridCell.Tab.1.bottom" timestamp="1599708877252">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state width="1558" height="242" key="GridCell.Tab.1.bottom/0.23.1600.877@0.23.1600.877" timestamp="1599708877252" />
+    <state width="1558" height="242" key="GridCell.Tab.1.center" timestamp="1599708877252">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state width="1558" height="242" key="GridCell.Tab.1.center/0.23.1600.877@0.23.1600.877" timestamp="1599708877252" />
+    <state width="1558" height="242" key="GridCell.Tab.1.left" timestamp="1599708877251">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state width="1558" height="242" key="GridCell.Tab.1.left/0.23.1600.877@0.23.1600.877" timestamp="1599708877251" />
+    <state width="1558" height="242" key="GridCell.Tab.1.right" timestamp="1599708877252">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state width="1558" height="242" key="GridCell.Tab.1.right/0.23.1600.877@0.23.1600.877" timestamp="1599708877252" />
+  </component>
+</project>
