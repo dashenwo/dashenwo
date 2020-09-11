@@ -39,7 +39,7 @@ func main() {
 
 	//创建服务
 	service := micro.NewService(
-		micro.Name("com.dashenwo.srv.account"),
+		micro.Name(conf.AppId),
 		micro.Version("latest"),
 		micro.Metadata(md),
 		// 设置启动ip
@@ -53,9 +53,9 @@ func main() {
 		),
 		micro.Action(func(ctx *cli.Context) error {
 			confPath := ctx.String("conf_path")
-			conf.CONF_PATH = confPath
+			conf.ConfPath = confPath
 			// 配置加载
-			err := config.LoadFile(conf.CONF_PATH + "config.yaml")
+			err := config.LoadFile(conf.ConfPath + "config.yaml")
 			return err
 		}),
 	)

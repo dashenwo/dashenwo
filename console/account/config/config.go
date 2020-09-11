@@ -2,7 +2,10 @@ package config
 
 import "time"
 
-var CONF_PATH = "./conf/"
+var (
+	ConfPath = "./conf/"
+	AppId    = "com.dashenwo.srv.account"
+)
 
 // 数据库配置信息
 type Database struct {

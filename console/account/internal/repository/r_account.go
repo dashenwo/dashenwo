@@ -1,9 +1,11 @@
 package repository
 
-import "github.com/dashenwo/dashenwo/console/account/schema"
+import (
+	"github.com/dashenwo/dashenwo/console/account/internal/model"
+)
 
 // 用户接口
 type UserRepository interface {
-	FindByName(name string) (*schema.Account, error)
-	Insert(account *schema.Account) error
+	FindByName(name string) (*model.Account, error)
+	Insert(account *model.Account) error
 }

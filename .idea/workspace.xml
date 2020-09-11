@@ -10,7 +10,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19c2c200-46d8-4073-ae9e-78a0a52abb4a" name="默认的" comment="" />
+    <list default="true" id="19c2c200-46d8-4073-ae9e-78a0a52abb4a" name="默认的" comment="新版本提交。更老版本组织架构！">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/handler/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/handler/account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/internal/model/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/internal/model/account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/internal/repository/persistence/gorm/r_account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/internal/repository/persistence/gorm/r_account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/internal/repository/r_account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/internal/repository/r_account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/internal/service/s_account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/internal/service/s_account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/proto/account.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/proto/account.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/schema/s_account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/schema/s_account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protos/account/account.proto" beforeDir="false" afterPath="$PROJECT_DIR$/protos/account/account.proto" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,35 +54,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/console/account/model/persistence/gorm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/console/account/bin/conf" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/console/account/model/persistence/gorm" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/protos" />
-      <recent name="$PROJECT_DIR$/console/account/bin" />
-      <recent name="$PROJECT_DIR$/console/account" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/console/account/internal/repository/persistence/gorm" />
       <recent name="$PROJECT_DIR$/console/account/internal" />
       <recent name="$PROJECT_DIR$/console/account" />
       <recent name="$PROJECT_DIR$/console/account/bin/conf" />
     </key>
-  </component>
-  <component name="RunAnythingCache">
-    <myKeys>
-      <visibility group="Recent projects" flag="true" />
-      <visibility group="Run configurations" flag="true" />
-    </myKeys>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/console/account/bin/conf" />
+      <recent name="$PROJECT_DIR$/pkg/utils" />
+      <recent name="$PROJECT_DIR$/console/account/model/persistence/gorm" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/protos" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="account" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -103,6 +112,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新版本提交。更老版本组织架构！" />
+    <option name="LAST_COMMIT_MESSAGE" value="新版本提交。更老版本组织架构！" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <environment>
@@ -120,41 +133,53 @@
       <screen x="0" y="23" width="1600" height="877" />
     </state>
     <state x="264" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1600.877@0.23.1600.877" timestamp="1599703405771" />
+    <state width="933" height="646" key="DebuggerActiveHint" timestamp="1599809217164">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state width="933" height="646" key="DebuggerActiveHint/0.23.1600.877@0.23.1600.877" timestamp="1599809217164" />
     <state x="714" y="190" key="EnvironmentVariablesDialog" timestamp="1599703045826">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
     <state x="714" y="190" key="EnvironmentVariablesDialog/0.23.1600.877@0.23.1600.877" timestamp="1599703045826" />
-    <state width="1558" height="242" key="GridCell.Tab.0.bottom" timestamp="1599708877251">
+    <state width="1558" height="214" key="GridCell.Tab.0.bottom" timestamp="1599814130198">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
-    <state width="1558" height="242" key="GridCell.Tab.0.bottom/0.23.1600.877@0.23.1600.877" timestamp="1599708877251" />
-    <state width="1558" height="242" key="GridCell.Tab.0.center" timestamp="1599708877250">
+    <state width="1558" height="214" key="GridCell.Tab.0.bottom/0.23.1600.877@0.23.1600.877" timestamp="1599814130198" />
+    <state width="1558" height="214" key="GridCell.Tab.0.center" timestamp="1599814130197">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
-    <state width="1558" height="242" key="GridCell.Tab.0.center/0.23.1600.877@0.23.1600.877" timestamp="1599708877250" />
-    <state width="1558" height="242" key="GridCell.Tab.0.left" timestamp="1599708877250">
+    <state width="1558" height="214" key="GridCell.Tab.0.center/0.23.1600.877@0.23.1600.877" timestamp="1599814130197" />
+    <state width="1558" height="214" key="GridCell.Tab.0.left" timestamp="1599814130196">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
-    <state width="1558" height="242" key="GridCell.Tab.0.left/0.23.1600.877@0.23.1600.877" timestamp="1599708877250" />
-    <state width="1558" height="242" key="GridCell.Tab.0.right" timestamp="1599708877250">
+    <state width="1558" height="214" key="GridCell.Tab.0.left/0.23.1600.877@0.23.1600.877" timestamp="1599814130196" />
+    <state width="1558" height="214" key="GridCell.Tab.0.right" timestamp="1599814130197">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
-    <state width="1558" height="242" key="GridCell.Tab.0.right/0.23.1600.877@0.23.1600.877" timestamp="1599708877250" />
-    <state width="1558" height="242" key="GridCell.Tab.1.bottom" timestamp="1599708877252">
+    <state width="1558" height="214" key="GridCell.Tab.0.right/0.23.1600.877@0.23.1600.877" timestamp="1599814130197" />
+    <state width="1558" height="214" key="GridCell.Tab.1.bottom" timestamp="1599814130199">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
-    <state width="1558" height="242" key="GridCell.Tab.1.bottom/0.23.1600.877@0.23.1600.877" timestamp="1599708877252" />
-    <state width="1558" height="242" key="GridCell.Tab.1.center" timestamp="1599708877252">
+    <state width="1558" height="214" key="GridCell.Tab.1.bottom/0.23.1600.877@0.23.1600.877" timestamp="1599814130199" />
+    <state width="1558" height="214" key="GridCell.Tab.1.center" timestamp="1599814130198">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
-    <state width="1558" height="242" key="GridCell.Tab.1.center/0.23.1600.877@0.23.1600.877" timestamp="1599708877252" />
-    <state width="1558" height="242" key="GridCell.Tab.1.left" timestamp="1599708877251">
+    <state width="1558" height="214" key="GridCell.Tab.1.center/0.23.1600.877@0.23.1600.877" timestamp="1599814130198" />
+    <state width="1558" height="214" key="GridCell.Tab.1.left" timestamp="1599814130198">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
-    <state width="1558" height="242" key="GridCell.Tab.1.left/0.23.1600.877@0.23.1600.877" timestamp="1599708877251" />
-    <state width="1558" height="242" key="GridCell.Tab.1.right" timestamp="1599708877252">
+    <state width="1558" height="214" key="GridCell.Tab.1.left/0.23.1600.877@0.23.1600.877" timestamp="1599814130198" />
+    <state width="1558" height="214" key="GridCell.Tab.1.right" timestamp="1599814130198">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
-    <state width="1558" height="242" key="GridCell.Tab.1.right/0.23.1600.877@0.23.1600.877" timestamp="1599708877252" />
+    <state width="1558" height="214" key="GridCell.Tab.1.right/0.23.1600.877@0.23.1600.877" timestamp="1599814130198" />
+    <state x="400" y="197" key="Vcs.Push.Dialog.v2" timestamp="1599728373619">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state x="400" y="197" key="Vcs.Push.Dialog.v2/0.23.1600.877@0.23.1600.877" timestamp="1599728373619" />
+    <state x="465" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599789100263">
+      <screen x="0" y="23" width="1600" height="877" />
+    </state>
+    <state x="465" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1600.877@0.23.1600.877" timestamp="1599789100263" />
   </component>
 </project>

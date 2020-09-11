@@ -27,7 +27,8 @@ message RegisterRequest{
 }
 // 注册响应
 message RegisterResponse{
-
+    //@inject_tag: json:"id"
+    int32 id = 1; //返回当前用户的id
 }
 // 账号信息请求体
 message InfoRequest{
