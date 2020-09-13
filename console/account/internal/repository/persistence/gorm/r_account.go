@@ -15,8 +15,11 @@ func NewAccountRepository() repository.UserRepository {
 }
 
 func (a *AccountRepository) FindByName(name string) (*model.Account, error) {
-
-	return nil, nil
+	account := model.Account{}
+	if err := db.Where("phone = ?", name).Or("email =  ?", name).First(&account).Error; err != nil {
+		return nil, err
+	}
+	return &account, nil
 }
 
 func (a *AccountRepository) Insert(account *model.Account) error {

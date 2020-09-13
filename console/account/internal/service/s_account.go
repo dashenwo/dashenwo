@@ -42,12 +42,14 @@ func (s AccountService) Login(username string, password string) (*schema.Account
 
 // 注册方法
 func (s AccountService) Register(nickname, password, phone string) (*schema.Account, error) {
-	account := &model.Account{}
-	account.Nickname = nickname
-	account.Phone = phone
-	account.Salt = crypto.GetRandomString(8)
-	account.Password = crypto.HashAndSalt(password, account.Salt)
-	account.RegisterTime = time.Now().Unix()
+	salt := crypto.GetRandomString(8)
+	account := &model.Account{
+		Nickname:     nickname,
+		Phone:        phone,
+		Salt:         salt,
+		Password:     crypto.HashAndSalt(password, salt),
+		RegisterTime: time.Now().Unix(),
+	}
 	err := s.repo.Insert(account)
 	if err != nil {
 		return nil, err

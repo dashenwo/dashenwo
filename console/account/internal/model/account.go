@@ -6,7 +6,7 @@ type Account struct {
 	// 用户昵称,唯一键
 	Nickname string `gorm:"column:nickname;unique;type:varchar(50)"`
 	// 密码
-	Password string `json:"-" gorm:"column:password;type:varchar(50)"`
+	Password string `json:"-" gorm:"column:password;type:varchar(100)"`
 	// 密码生成盐值
 	Salt string `json:"-" gorm:"column:salt;type:varchar(8)"`
 	// 手机号
