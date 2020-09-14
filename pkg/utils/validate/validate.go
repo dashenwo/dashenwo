@@ -63,7 +63,7 @@ func Validate(entity interface{}, appId string) error {
 			if msg == "" {
 				msg = err.Translate(trans)
 			}
-			return errors.New(appId, msg, 200)
+			return errors.New(appId, msg, 401)
 		}
 	}
 	return nil

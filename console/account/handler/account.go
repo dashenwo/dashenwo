@@ -2,11 +2,17 @@ package handler
 
 import (
 	"context"
+	"encoding/json"
 	conf "github.com/dashenwo/dashenwo/console/account/config"
+	"github.com/dashenwo/dashenwo/console/account/global"
 	"github.com/dashenwo/dashenwo/console/account/internal/service"
 	"github.com/dashenwo/dashenwo/console/account/proto"
+	"github.com/dashenwo/dashenwo/pkg/crypto"
 	"github.com/dashenwo/dashenwo/pkg/utils/validate"
+	"github.com/micro/go-micro/v2/errors"
 	"github.com/micro/go-micro/v2/util/log"
+	"strconv"
+	"time"
 )
 
 type Account struct {
@@ -32,7 +38,18 @@ func (a *Account) Login(ctx context.Context, req *proto.LoginRequest, res *proto
 		return err
 	}
 	// 生成token
-
+	token := crypto.Md5("userToken_" + req.Source + "_" + strconv.Itoa(user.ID))
+	log.Info(global.Redis)
+	// 保存数据到redis
+	data, _ := json.Marshal(user)
+	if err := global.Redis.Set(token, string(data), time.Hour*2).Err(); err != nil {
+		return errors.New(conf.AppId, "设置用户登录状态失败", 504)
+	}
+	now := time.Now()
+	hh, _ := time.ParseDuration("1h")
+	// 返回token
+	res.Token = token
+	res.Expires = now.Add(2 * hh).Format("2006-01-02 15:04:05")
 	log.Info(user, err)
 	return nil
 }
@@ -51,6 +68,6 @@ func (a *Account) Register(ctx context.Context, req *proto.RegisterRequest, res 
 	if err != nil {
 		return err
 	}
-	res.Id = int32(account.Id)
+	res.Id = int32(account.ID)
 	return nil
 }

@@ -1,0 +1,102 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"19c2c200-46d8-4073-ae9e-78a0a52abb4a\" name=\"默认的\" comment=\"新版本提交。更老版本组织架构！\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/console/account/config/config.go\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/console/account/config/config.go\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/console/account/handler/account.go\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/console/account/handler/account.go\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/console/account/internal/model/account.go\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/console/account/internal/model/account.go\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/console/account/internal/repository/persistence/gorm/r_account.go\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/console/account/internal/repository/persistence/gorm/r_account.go\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/console/account/internal/repository/r_account.go\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/console/account/internal/repository/r_account.go\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/console/account/internal/service/s_account.go\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/console/account/internal/service/s_account.go\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/console/account/main.go\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/console/account/main.go\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/console/account/proto/account.pb.go\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/console/account/proto/account.pb.go\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/console/account/schema/s_account.go\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/console/account/schema/s_account.go\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/go.mod\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/go.mod\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/go.sum\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/go.sum\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/protos/account/account.proto\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/protos/account/account.proto\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Go File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"GOROOT\" path=\"/usr/local/go\" />\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GithubDefaultAccount\">\n    <option name=\"defaultAccountId\" value=\"04876ee5-54f0-4d54-b024-b81d67de2497\" />\n  </component>\n  <component name=\"GoLibraries\">\n    <option name=\"indexEntireGoPath\" value=\"false\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1gqzGJI8kB4AJyP9zyaNiwFxYJ1\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultGoTemplateProperty\" value=\"Go File\" />\n    <property name=\"GO_FMT\" value=\"true\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"go.import.settings.migrated\" value=\"true\" />\n    <property name=\"go.sdk.automatically.set\" value=\"true\" />\n    <property name=\"go.tried.to.enable.integration.vgo.integrator\" value=\"true\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/console/account/bin/conf\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/console/account/internal/repository/persistence/gorm\" />\n      <recent name=\"$PROJECT_DIR$/console/account/internal\" />\n      <recent name=\"$PROJECT_DIR$/console/account\" />\n      <recent name=\"$PROJECT_DIR$/console/account/bin/conf\" />\n    </key>\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/console/account/bin/conf\" />\n      <recent name=\"$PROJECT_DIR$/pkg/utils\" />\n      <recent name=\"$PROJECT_DIR$/console/account/model/persistence/gorm\" />\n      <recent name=\"$PROJECT_DIR$\" />\n      <recent name=\"$PROJECT_DIR$/protos\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"account\" type=\"GoApplicationRunConfiguration\" factoryName=\"Go Application\" temporary=\"true\">\n      <module name=\"dashenwo\" />\n      <working_directory value=\"$PROJECT_DIR$/console/account/bin\" />\n      <envs>\n        <env name=\"MICRO_REGISTRY\" value=\"etcd\" />\n        <env name=\"MICRO_REGISTRY_ADDRESS\" value=\"49.235.160.203:2379\" />\n      </envs>\n      <kind value=\"PACKAGE\" />\n      <filePath value=\"$PROJECT_DIR$/console/account/main.go\" />\n      <package value=\"github.com/dashenwo/dashenwo/console/account\" />\n      <directory value=\"$PROJECT_DIR$/\" />\n      <output_directory value=\"$PROJECT_DIR$/console/account/bin\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Go Build.account\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"新版本提交。更老版本组织架构！\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"新版本提交。更老版本组织架构！\" />\n  </component>\n  <component name=\"VgoProject\">\n    <integration-enabled>true</integration-enabled>\n    <environment>\n      <map>\n        <entry key=\"GOPROXY\" value=\"https://goproxy.cn\" />\n      </map>\n    </environment>\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"600\" y=\"302\" key=\"#Go_Modules\" timestamp=\"1598856978028\">\n      <screen x=\"0\" y=\"23\" width=\"1600\" height=\"877\" />\n    </state>\n    <state x=\"600\" y=\"302\" key=\"#Go_Modules/0.23.1600.877@0.23.1600.877\" timestamp=\"1598856978028\" />\n    <state x=\"264\" y=\"123\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog\" timestamp=\"1599703405771\">\n      <screen x=\"0\" y=\"23\" width=\"1600\" height=\"877\" />\n    </state>\n    <state x=\"264\" y=\"123\" key=\"#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1600.877@0.23.1600.877\" timestamp=\"1599703405771\" />\n    <state width=\"933\" height=\"646\" key=\"DebuggerActiveHint\" timestamp=\"1599809217164\">\n      <screen x=\"0\" y=\"23\" width=\"1600\" height=\"877\" />\n    </state>\n    <state width=\"933\" height=\"646\" key=\"DebuggerActiveHint/0.23.1600.877@0.23.1600.877\" timestamp=\"1599809217164\" />\n    <state x=\"714\" y=\"190\" key=\"EnvironmentVariablesDialog\" timestamp=\"1599703045826\">\n      <screen x=\"0\" y=\"23\" width=\"1600\" height=\"877\" />\n    </state>\n    <state x=\"714\" y=\"190\" key=\"EnvironmentVariablesDialog/0.23.1600.877@0.23.1600.877\" timestamp=\"1599703045826\" />\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1599814130198\">\n      <screen x=\"0\" y=\"23\" width=\"1600\" height=\"877\" />\n    </state>\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.0.bottom/0.23.1600.877@0.23.1600.877\" timestamp=\"1599814130198\" />\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.0.center\" timestamp=\"1599814130197\">\n      <screen x=\"0\" y=\"23\" width=\"1600\" height=\"877\" />\n    </state>\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.0.center/0.23.1600.877@0.23.1600.877\" timestamp=\"1599814130197\" />\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.0.left\" timestamp=\"1599814130196\">\n      <screen x=\"0\" y=\"23\" width=\"1600\" height=\"877\" />\n    </state>\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.0.left/0.23.1600.877@0.23.1600.877\" timestamp=\"1599814130196\" />\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.0.right\" timestamp=\"1599814130197\">\n      <screen x=\"0\" y=\"23\" width=\"1600\" height=\"877\" />\n    </state>\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.0.right/0.23.1600.877@0.23.1600.877\" timestamp=\"1599814130197\" />\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.1.bottom\" timestamp=\"1599814130199\">\n      <screen x=\"0\" y=\"23\" width=\"1600\" height=\"877\" />\n    </state>\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.1.bottom/0.23.1600.877@0.23.1600.877\" timestamp=\"1599814130199\" />\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.1.center\" timestamp=\"1599814130198\">\n      <screen x=\"0\" y=\"23\" width=\"1600\" height=\"877\" />\n    </state>\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.1.center/0.23.1600.877@0.23.1600.877\" timestamp=\"1599814130198\" />\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.1.left\" timestamp=\"1599814130198\">\n      <screen x=\"0\" y=\"23\" width=\"1600\" height=\"877\" />\n    </state>\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.1.left/0.23.1600.877@0.23.1600.877\" timestamp=\"1599814130198\" />\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.1.right\" timestamp=\"1599814130198\">\n      <screen x=\"0\" y=\"23\" width=\"1600\" height=\"877\" />\n    </state>\n    <state width=\"1558\" height=\"214\" key=\"GridCell.Tab.1.right/0.23.1600.877@0.23.1600.877\" timestamp=\"1599814130198\" />\n    <state x=\"400\" y=\"197\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1599728373619\">\n      <screen x=\"0\" y=\"23\" width=\"1600\" height=\"877\" />\n    </state>\n    <state x=\"400\" y=\"197\" key=\"Vcs.Push.Dialog.v2/0.23.1600.877@0.23.1600.877\" timestamp=\"1599728373619\" />\n    <state x=\"465\" y=\"213\" width=\"670\" height=\"676\" key=\"search.everywhere.popup\" timestamp=\"1599789100263\">\n      <screen x=\"0\" y=\"23\" width=\"1600\" height=\"877\" />\n    </state>\n    <state x=\"465\" y=\"213\" width=\"670\" height=\"676\" key=\"search.everywhere.popup/0.23.1600.877@0.23.1600.877\" timestamp=\"1599789100263\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 89d740dc6adb1f36187eb94fdccb99eace441ac5)
++++ .idea/workspace.xml	(date 1600048475000)
+@@ -10,20 +10,8 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="19c2c200-46d8-4073-ae9e-78a0a52abb4a" name="默认的" comment="新版本提交。更老版本组织架构！">
++    <list default="true" id="19c2c200-46d8-4073-ae9e-78a0a52abb4a" name="默认的" comment="增加用户注册和用户登录方法">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/console/account/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/config/config.go" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/console/account/handler/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/handler/account.go" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/console/account/internal/model/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/internal/model/account.go" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/console/account/internal/repository/persistence/gorm/r_account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/internal/repository/persistence/gorm/r_account.go" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/console/account/internal/repository/r_account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/internal/repository/r_account.go" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/console/account/internal/service/s_account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/internal/service/s_account.go" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/console/account/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/main.go" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/console/account/proto/account.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/proto/account.pb.go" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/console/account/schema/s_account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/schema/s_account.go" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/protos/account/account.proto" beforeDir="false" afterPath="$PROJECT_DIR$/protos/account/account.proto" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -114,7 +102,8 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="新版本提交。更老版本组织架构！" />
+-    <option name="LAST_COMMIT_MESSAGE" value="新版本提交。更老版本组织架构！" />
++    <MESSAGE value="增加用户注册和用户登录方法" />
++    <option name="LAST_COMMIT_MESSAGE" value="增加用户注册和用户登录方法" />
+   </component>
+   <component name="VgoProject">
+     <integration-enabled>true</integration-enabled>
+@@ -141,42 +130,42 @@
+       <screen x="0" y="23" width="1600" height="877" />
+     </state>
+     <state x="714" y="190" key="EnvironmentVariablesDialog/0.23.1600.877@0.23.1600.877" timestamp="1599703045826" />
+-    <state width="1558" height="214" key="GridCell.Tab.0.bottom" timestamp="1599814130198">
++    <state width="1558" height="214" key="GridCell.Tab.0.bottom" timestamp="1599819304665">
+       <screen x="0" y="23" width="1600" height="877" />
+     </state>
+-    <state width="1558" height="214" key="GridCell.Tab.0.bottom/0.23.1600.877@0.23.1600.877" timestamp="1599814130198" />
+-    <state width="1558" height="214" key="GridCell.Tab.0.center" timestamp="1599814130197">
++    <state width="1558" height="214" key="GridCell.Tab.0.bottom/0.23.1600.877@0.23.1600.877" timestamp="1599819304665" />
++    <state width="1558" height="214" key="GridCell.Tab.0.center" timestamp="1599819304665">
+       <screen x="0" y="23" width="1600" height="877" />
+     </state>
+-    <state width="1558" height="214" key="GridCell.Tab.0.center/0.23.1600.877@0.23.1600.877" timestamp="1599814130197" />
+-    <state width="1558" height="214" key="GridCell.Tab.0.left" timestamp="1599814130196">
++    <state width="1558" height="214" key="GridCell.Tab.0.center/0.23.1600.877@0.23.1600.877" timestamp="1599819304665" />
++    <state width="1558" height="214" key="GridCell.Tab.0.left" timestamp="1599819304664">
+       <screen x="0" y="23" width="1600" height="877" />
+     </state>
+-    <state width="1558" height="214" key="GridCell.Tab.0.left/0.23.1600.877@0.23.1600.877" timestamp="1599814130196" />
+-    <state width="1558" height="214" key="GridCell.Tab.0.right" timestamp="1599814130197">
++    <state width="1558" height="214" key="GridCell.Tab.0.left/0.23.1600.877@0.23.1600.877" timestamp="1599819304664" />
++    <state width="1558" height="214" key="GridCell.Tab.0.right" timestamp="1599819304665">
+       <screen x="0" y="23" width="1600" height="877" />
+     </state>
+-    <state width="1558" height="214" key="GridCell.Tab.0.right/0.23.1600.877@0.23.1600.877" timestamp="1599814130197" />
+-    <state width="1558" height="214" key="GridCell.Tab.1.bottom" timestamp="1599814130199">
++    <state width="1558" height="214" key="GridCell.Tab.0.right/0.23.1600.877@0.23.1600.877" timestamp="1599819304665" />
++    <state width="1558" height="214" key="GridCell.Tab.1.bottom" timestamp="1599819304667">
+       <screen x="0" y="23" width="1600" height="877" />
+     </state>
+-    <state width="1558" height="214" key="GridCell.Tab.1.bottom/0.23.1600.877@0.23.1600.877" timestamp="1599814130199" />
+-    <state width="1558" height="214" key="GridCell.Tab.1.center" timestamp="1599814130198">
++    <state width="1558" height="214" key="GridCell.Tab.1.bottom/0.23.1600.877@0.23.1600.877" timestamp="1599819304667" />
++    <state width="1558" height="214" key="GridCell.Tab.1.center" timestamp="1599819304666">
+       <screen x="0" y="23" width="1600" height="877" />
+     </state>
+-    <state width="1558" height="214" key="GridCell.Tab.1.center/0.23.1600.877@0.23.1600.877" timestamp="1599814130198" />
+-    <state width="1558" height="214" key="GridCell.Tab.1.left" timestamp="1599814130198">
++    <state width="1558" height="214" key="GridCell.Tab.1.center/0.23.1600.877@0.23.1600.877" timestamp="1599819304666" />
++    <state width="1558" height="214" key="GridCell.Tab.1.left" timestamp="1599819304666">
+       <screen x="0" y="23" width="1600" height="877" />
+     </state>
+-    <state width="1558" height="214" key="GridCell.Tab.1.left/0.23.1600.877@0.23.1600.877" timestamp="1599814130198" />
+-    <state width="1558" height="214" key="GridCell.Tab.1.right" timestamp="1599814130198">
++    <state width="1558" height="214" key="GridCell.Tab.1.left/0.23.1600.877@0.23.1600.877" timestamp="1599819304666" />
++    <state width="1558" height="214" key="GridCell.Tab.1.right" timestamp="1599819304666">
+       <screen x="0" y="23" width="1600" height="877" />
+     </state>
+-    <state width="1558" height="214" key="GridCell.Tab.1.right/0.23.1600.877@0.23.1600.877" timestamp="1599814130198" />
+-    <state x="400" y="197" key="Vcs.Push.Dialog.v2" timestamp="1599728373619">
++    <state width="1558" height="214" key="GridCell.Tab.1.right/0.23.1600.877@0.23.1600.877" timestamp="1599819304666" />
++    <state x="400" y="197" key="Vcs.Push.Dialog.v2" timestamp="1599816240238">
+       <screen x="0" y="23" width="1600" height="877" />
+     </state>
+-    <state x="400" y="197" key="Vcs.Push.Dialog.v2/0.23.1600.877@0.23.1600.877" timestamp="1599728373619" />
++    <state x="400" y="197" key="Vcs.Push.Dialog.v2/0.23.1600.877@0.23.1600.877" timestamp="1599816240238" />
+     <state x="465" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1599789100263">
+       <screen x="0" y="23" width="1600" height="877" />
+     </state>

@@ -2,10 +2,12 @@ syntax = "proto3";
 option go_package=".;proto";//可选项设置包的地址
 // 登录请求体
 message LoginRequest{
-    //@inject_tag: json:"username"
+    //@inject_tag: json:"username" validate:"required" message:"required:用户名不能为空"
     string username=1;//用户名
-    //@inject_tag: json:"password"
+    //@inject_tag: json:"password" validate:"required" message:"required:密码不能为空"
     string password=2;//密码
+    //@inject_tag: json:"source" validate:"required" message:"required:来源不能为空"
+    string source =3;//来源
 }
 // 登录响应体
 message LoginResponse{

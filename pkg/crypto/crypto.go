@@ -1,6 +1,8 @@
 package crypto
 
 import (
+	"crypto/md5"
+	"fmt"
 	"github.com/micro/go-micro/v2/util/log"
 	"golang.org/x/crypto/bcrypt"
 	"math/rand"
@@ -36,8 +38,15 @@ func ComparePasswords(hashedPwd string, password string) bool {
 	plainPwd := []byte(password)
 	err := bcrypt.CompareHashAndPassword(byteHash, plainPwd)
 	if err != nil {
-		log.Log(err)
 		return false
 	}
 	return true
+}
+
+// md5
+func Md5(str string) string {
+	data := []byte(str)
+	has := md5.Sum(data)
+	md5str := fmt.Sprintf("%x", has)
+	return md5str
 }
