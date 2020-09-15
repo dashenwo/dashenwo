@@ -3,7 +3,7 @@ package schema
 // 用户信息字段（对外展示）
 type Account struct {
 	// 数据库物理编号
-	ID int `json:"id"`
+	ID string `json:"id"`
 	// 昵称
 	Nickname string `json:"nickname"`
 	// 密码

@@ -1,13 +1,18 @@
 package service
 
 import (
+	"context"
 	conf "github.com/dashenwo/dashenwo/console/account/config"
 	"github.com/dashenwo/dashenwo/console/account/internal/model"
 	"github.com/dashenwo/dashenwo/console/account/internal/repository"
 	"github.com/dashenwo/dashenwo/console/account/schema"
+	"github.com/dashenwo/dashenwo/console/snowflake/proto"
 	"github.com/dashenwo/dashenwo/pkg/crypto"
 	"github.com/jinzhu/copier"
+	"github.com/micro/go-micro/v2"
 	"github.com/micro/go-micro/v2/errors"
+	"github.com/micro/go-micro/v2/util/log"
+	"strconv"
 	"time"
 )
 
@@ -41,9 +46,17 @@ func (s AccountService) Login(username string, password string) (*schema.Account
 }
 
 // 注册方法
-func (s AccountService) Register(nickname, password, phone string) (*schema.Account, error) {
+func (s AccountService) Register(nickname, password, phone, code string) (*schema.Account, error) {
+	//1.验证验证码是否正确
+
+	//2.调用id
+	rsp, callErr := call1()
+	if callErr != nil {
+		return nil, callErr
+	}
 	salt := crypto.GetRandomString(8)
 	account := &model.Account{
+		ID:           strconv.FormatInt(rsp.Id, 10),
 		Nickname:     nickname,
 		Phone:        phone,
 		Salt:         salt,
@@ -57,4 +70,30 @@ func (s AccountService) Register(nickname, password, phone string) (*schema.Acco
 	item := new(schema.Account)
 	_ = copier.Copy(item, account)
 	return item, nil
+}
+
+func call1() (*proto.Response, error) {
+	now1 := time.Now().UnixNano() / 1e6
+	service := micro.NewService()
+	service.Init()
+	// create the proto client for helloworld
+	client := proto.NewSnowflakeService("com.dashenwo.srv.snowflake", service.Client())
+	// call an endpoint on the service
+	rsp, callErr := client.Generate(context.Background(), &proto.Request{})
+	if callErr != nil {
+		return nil, errors.New("com.dashenwo.srv.snowflake", callErr.Error(), 506)
+	}
+	log.Info("使用proto方式调用消耗：", (time.Now().UnixNano()/1e6)-now1)
+	return rsp, nil
+}
+
+func call2() (*proto.Response, error) {
+	now1 := time.Now().UnixNano() / 1e6
+	service := micro.NewService()
+	service.Init()
+	client := service.Client()
+	req := client.NewRequest()
+	client.Call(context.Background(), req)
+
+	log.Info("使用proto方式调用消耗：", (time.Now().UnixNano()/1e6)-now1)
 }

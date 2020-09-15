@@ -11,7 +11,6 @@ import (
 	"github.com/dashenwo/dashenwo/pkg/utils/validate"
 	"github.com/micro/go-micro/v2/errors"
 	"github.com/micro/go-micro/v2/util/log"
-	"strconv"
 	"time"
 )
 
@@ -38,7 +37,7 @@ func (a *Account) Login(ctx context.Context, req *proto.LoginRequest, res *proto
 		return err
 	}
 	// 生成token
-	token := crypto.Md5("userToken_" + req.Source + "_" + strconv.Itoa(user.ID))
+	token := crypto.Md5("userToken_" + req.Source + "_" + user.ID)
 	log.Info(global.Redis)
 	// 保存数据到redis
 	data, _ := json.Marshal(user)
@@ -61,13 +60,11 @@ func (a *Account) Register(ctx context.Context, req *proto.RegisterRequest, res 
 	if err := validate.Validate(req, conf.AppId); err != nil {
 		return err
 	}
-	// 1.调用短信服务，验证当前短信验证码是否正确
-
 	// 2.进入注册
-	account, err := a.accountService.Register(req.Nickname, req.Password, req.Phone)
+	account, err := a.accountService.Register(req.Nickname, req.Password, req.Phone, req.Code)
 	if err != nil {
 		return err
 	}
-	res.Id = int32(account.ID)
+	res.Id = account.ID
 	return nil
 }

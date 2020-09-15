@@ -1,9 +1,9 @@
 package main
 
 import (
-	conf "github.com/dashenwo/dashenwo/console/account/config"
-	"github.com/dashenwo/dashenwo/console/account/handler"
-	"github.com/dashenwo/dashenwo/console/account/registry"
+	conf "github.com/dashenwo/dashenwo/console/snowflake/config"
+	"github.com/dashenwo/dashenwo/console/snowflake/handler"
+	"github.com/dashenwo/dashenwo/console/snowflake/registry"
 	tracer "github.com/dashenwo/dashenwo/pkg/opentracing"
 	"github.com/micro/cli/v2"
 	"github.com/micro/go-micro/v2"
@@ -43,7 +43,7 @@ func main() {
 		micro.Version("latest"),
 		micro.Metadata(md),
 		// 设置启动ip
-		micro.Address(":8002"),
+		//micro.Address(":8001"),
 		micro.Flags(
 			&cli.StringFlag{
 				Name:  "conf_path",
@@ -74,7 +74,8 @@ func main() {
 	// 初始化服务
 	service.Init()
 
-	c, err := registry.NewContainer()
+	// Register Handler
+	c, err := registry.NewContainer(service.Server())
 	if err != nil {
 		log.Fatalf("failed to build container: %v", err)
 	}
@@ -86,4 +87,5 @@ func main() {
 	if err := service.Run(); err != nil {
 		log.Fatal(err)
 	}
+
 }

@@ -2,7 +2,7 @@ package model
 
 type Account struct {
 	// 物理id，自增，主键
-	ID int `gorm:"column:id;primaryKey;autoIncrement;"`
+	ID string `gorm:"column:id;primaryKey;type:varchar(20)"`
 	// 用户昵称,唯一键
 	Nickname string `gorm:"column:nickname;unique;type:varchar(50)"`
 	// 密码
