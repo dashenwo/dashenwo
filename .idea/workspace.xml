@@ -7,17 +7,20 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19c2c200-46d8-4073-ae9e-78a0a52abb4a" name="默认的" comment="增加雪花id算法模块">
+    <list default="true" id="19c2c200-46d8-4073-ae9e-78a0a52abb4a" name="默认的" comment="使用单机版的redis存储session信息！">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/snowflake/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/snowflake/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/handler/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/handler/account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/internal/model/account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/internal/model/account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/internal/service/s_account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/internal/service/s_account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/proto/account.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/proto/account.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/account/schema/s_account.go" beforeDir="false" afterPath="$PROJECT_DIR$/console/account/schema/s_account.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protos/account/account.proto" beforeDir="false" afterPath="$PROJECT_DIR$/protos/account/account.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,13 +121,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="false" />
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -134,8 +131,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新版本提交。更老版本组织架构！" />
     <MESSAGE value="使用单机版的redis存储session信息！" />
-    <MESSAGE value="增加雪花id算法模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加雪花id算法模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用单机版的redis存储session信息！" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -194,14 +190,10 @@
       <screen x="0" y="23" width="1600" height="877" />
     </state>
     <state width="1558" height="297" key="GridCell.Tab.1.right/0.23.1600.877@0.23.1600.877" timestamp="1600162264807" />
-    <state x="400" y="197" key="Vcs.Push.Dialog.v2" timestamp="1600163660071">
+    <state x="400" y="197" key="Vcs.Push.Dialog.v2" timestamp="1600077979794">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
-    <state x="400" y="197" key="Vcs.Push.Dialog.v2/0.23.1600.877@0.23.1600.877" timestamp="1600163660071" />
-    <state x="513" y="306" key="git4idea.ui.GitTagDialog" timestamp="1600163976754">
-      <screen x="0" y="23" width="1600" height="877" />
-    </state>
-    <state x="513" y="306" key="git4idea.ui.GitTagDialog/0.23.1600.877@0.23.1600.877" timestamp="1600163976754" />
+    <state x="400" y="197" key="Vcs.Push.Dialog.v2/0.23.1600.877@0.23.1600.877" timestamp="1600077979794" />
     <state x="465" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1600077915299">
       <screen x="0" y="23" width="1600" height="877" />
     </state>
