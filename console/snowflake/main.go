@@ -77,7 +77,7 @@ func main() {
 	// Register Handler
 	c, err := registry.NewContainer(service.Server())
 	if err != nil {
-		log.Fatalf("failed to build container: %v", err)
+		log.Fatalf("failed to build container: %v11111", err)
 	}
 
 	// Register Handler
