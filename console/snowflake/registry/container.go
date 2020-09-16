@@ -5,7 +5,7 @@ import (
 	"github.com/dashenwo/dashenwo/console/snowflake/config"
 	"github.com/dashenwo/dashenwo/console/snowflake/global"
 	"github.com/dashenwo/dashenwo/pkg/utils/iputils"
-	"github.com/micro/go-micro/v2/server"
+	"github.com/micro/go-micro/v3/server"
 	"go.uber.org/dig"
 	"strconv"
 	"strings"
